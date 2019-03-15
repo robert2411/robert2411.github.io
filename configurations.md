@@ -1,2 +1,2 @@
-[Home](./index) | [links](./links)
+[Home](./index) | [links](./links) | Configurations
 # Configurations that work for me
