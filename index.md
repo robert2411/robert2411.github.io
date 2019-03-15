@@ -1,4 +1,4 @@
-[Links](./links)
+[Links](./links) | [Configurations](./configurations)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/robert2411/robert2411.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
