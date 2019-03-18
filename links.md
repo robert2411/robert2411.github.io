@@ -20,6 +20,6 @@
  - [code-server](https://github.com/codercom/code-server) Visual studio code inside docker
  - [MTPutty](http://ttyplus.com/multi-tabbed-putty/)
  
-# Guids, Standards and best practices
+## Guids, Standards and best practices
  - [atlassian](https://codice.atlassian.net/wiki/spaces/DDF/pages/6291512/Guidelines+Standards+and+Best+Practices)
   
