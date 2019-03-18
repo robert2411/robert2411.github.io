@@ -1,0 +1,52 @@
+# Payload
+
+```xml
+<properties>
+  <swagger.annotations.version>1.5.13</swagger.annotations.version>
+  <swagger-codegen-maven-plugin.version>2.3.1</swagger-codegen-maven-plugin.version>
+</properties>
+
+<dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-codegen-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.basedir}/src/main/swagger/swagger-api.yaml</inputSpec>
+                            <modelPackage>com.example.payload</modelPackage>
+                            <addCompileSourceRoot>true</addCompileSourceRoot>
+                            <output>${project.build.directory}/generated-sources/</output>
+                            <configOptions>
+                                <hideGenerationTimestamp>true</hideGenerationTimestamp>
+                                <dateLibrary>java8</dateLibrary>
+                            </configOptions>
+                            <language>java</language>
+                            <library>feign</library>
+                            <generateApis>false</generateApis>
+                            <generateApiTests>false</generateApiTests>
+                            <generateApiDocumentation>false</generateApiDocumentation>
+                            <generateModelTests>false</generateModelTests>
+                            <generateModelDocumentation>false</generateModelDocumentation>
+                            <generateSupportingFiles>false</generateSupportingFiles>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+```
