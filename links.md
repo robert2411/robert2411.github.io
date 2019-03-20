@@ -22,4 +22,7 @@
  
 ## Guids, Standards and best practices
  - [atlassian](https://codice.atlassian.net/wiki/spaces/DDF/pages/6291512/Guidelines+Standards+and+Best+Practices)
+ 
+## Other link pages
+ - [Usefull java links](https://github.com/Vedenin/useful-java-links)
   
