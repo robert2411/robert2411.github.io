@@ -19,6 +19,9 @@
 ## Tools
  - [code-server](https://github.com/codercom/code-server) Visual studio code inside docker
  - [MTPutty](http://ttyplus.com/multi-tabbed-putty/)
+
+### Presentations
+ - [demoit](https://github.com/dgageot/demoit) Live coding demos without Context Switching
  
 ## Guids, Standards and best practices
  - [atlassian](https://codice.atlassian.net/wiki/spaces/DDF/pages/6291512/Guidelines+Standards+and+Best+Practices)
