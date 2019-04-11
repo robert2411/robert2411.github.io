@@ -19,6 +19,7 @@
 ## Tools
  - [code-server](https://github.com/codercom/code-server) Visual studio code inside docker
  - [MTPutty](http://ttyplus.com/multi-tabbed-putty/)
+ - [winsw](https://github.com/kohsuke/winsw) A wrapper executable that can be used to host any executable as an Windows service, in a liberal license 
 
 ### Presentations
  - [demoit](https://github.com/dgageot/demoit) Live coding demos without Context Switching
