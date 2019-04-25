@@ -2,4 +2,4 @@
 # Handy Commands
 
 ## Git 
- - git update-index --chmod=+x script.sh`
+ - `git update-index --chmod=+x script.sh`
