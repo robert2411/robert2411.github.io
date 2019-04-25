@@ -1,4 +1,4 @@
-[Home](./index) | Links | [Configurations](./configurations)
+[Home](./index) | Links | [Configurations](./configurations) | [Commands](./commands)
 # Linkpage 
 
 ## Docker
