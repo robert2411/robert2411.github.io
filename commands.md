@@ -3,3 +3,5 @@
 
 ## Git 
  - `git update-index --chmod=+x script.sh`
+ - `git checkout -- file-to-reset`
+
