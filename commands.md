@@ -13,3 +13,6 @@
  - Reported by me: `reporter = currentUser() order by created DESC`
  - Assigned to me: `assignee = currentUser() AND Sprint in openSprints() ORDER BY priority DESC, updated DESC`
  - watching: `watcher = currentUser() AND resolution = Unresolved ORDER BY priority DESC, updated DESC`
+
+## CentOs
+ - Install rpm from ulr: `yum install -y <URL>`
