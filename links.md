@@ -23,7 +23,8 @@
  - [Glogg](https://glogg.bonnefon.org/) glogg is a multi-platform GUI application to browse and search through long or complex log files
 ### Presentations
  - [demoit](https://github.com/dgageot/demoit) Live coding demos without Context Switching
- 
+### Swagger
+ - [ReDoc](https://github.com/Rebilly/ReDoc) OpenAPI/Swagger-generated API Reference Documentation 
 ## Guids, Standards and best practices
  - [atlassian](https://codice.atlassian.net/wiki/spaces/DDF/pages/6291512/Guidelines+Standards+and+Best+Practices)
  
