@@ -51,3 +51,45 @@
         </plugins>
     </build>
 ```
+# Payload And Spring interfaces Generation
+```xml
+<dependencies>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-codegen-maven-plugin</artifactId>
+                <version>2.2.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.basedir}/src/main/swagger/swagger-api.yaml</inputSpec>
+                            <apiPackage>com.example.web.api</apiPackage>
+                            <modelPackage>com.example.web.payload</modelPackage>
+                            <addCompileSourceRoot>true</addCompileSourceRoot>
+                            <language>spring</language>
+                            <configOptions>
+                                <sourceFolder>swagger</sourceFolder>
+                                <java8>true</java8>
+                                <interfaceOnly>true</interfaceOnly>
+                            </configOptions>
+                            <generateApiTests>false</generateApiTests>
+                            <generateApiDocumentation>false</generateApiDocumentation>
+                            <generateModelTests>false</generateModelTests>
+                            <generateModelDocumentation>false</generateModelDocumentation>
+                            <generateSupportingFiles>false</generateSupportingFiles>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+```
