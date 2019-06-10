@@ -1,4 +1,5 @@
-[Home](./index) | Links | [Configurations](./configurations) | [Commands](./commands)
+[Home](./index) | Links | [Configurations](./configurations) | [Scripts](./scripts) | [Commands](./commands)
+
 # Linkpage 
 ## SemVer
  - [Shell script](https://github.com/fmahnke/shell-semver)
