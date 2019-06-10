@@ -1,4 +1,4 @@
-[Home](./index) | [Links](./links) | [Configurations](./configurations) | [Commands](./commands)
+[Home](./index) | [Links](./links) | [Configurations](./configurations) | [Scripts](./scripts) | [Commands](./commands)
 # Payload-Generation
 
 ```xml
