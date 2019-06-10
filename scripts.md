@@ -1,3 +1,8 @@
+[Home](./index) | Links | [Configurations](./configurations) | [Scripts](./scripts) | [Commands](./commands)
+
+# Handy scripts
+
+## save the last git commits to a file to generate raw release notes + create a file with all the jira issues
 ```
 #!/usr/bin/env bash
 BUILD_VERSION=$1
