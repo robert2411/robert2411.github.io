@@ -1,4 +1,4 @@
-[Home](./index) | Links | [Configurations](./configurations) | [Scripts](./scripts) | [Commands](./commands)
+[Home](./index) | [Links](./links) | [Configurations](./configurations) | Scripts | [Commands](./commands)
 
 # Handy scripts
 
