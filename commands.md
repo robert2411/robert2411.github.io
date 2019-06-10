@@ -1,4 +1,5 @@
-[Home](./index) | [links](./links) | [Configurations](./configurations) | Commands
+[Home](./index) | [links](./links) | [Configurations](./configurations) | [Scripts](./scripts) | Commands
+
 # Handy Commands
 
 ## Docker
