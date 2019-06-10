@@ -1,4 +1,4 @@
-Home | [Links](./links) | [Configurations](./configurations) | [Scripts](./scripts) |[Commands](./commands)
+Home | [Links](./links) | [Configurations](./configurations) | [Scripts](./scripts) | [Commands](./commands)
 
 ## Personal pages
 [Docker hub](https://hub.docker.com/u/robert2411)
