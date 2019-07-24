@@ -24,7 +24,7 @@
  - [MTPutty](http://ttyplus.com/multi-tabbed-putty/)
  - [winsw](https://github.com/kohsuke/winsw) A wrapper executable that can be used to host any executable as an Windows service, in a liberal license
  - [Glogg](https://glogg.bonnefon.org/) glogg is a multi-platform GUI application to browse and search through long or complex log files
-
+ - [Drone](https://drone.io/) Automate Software Testing and Delivery
 ### Presentations
  - [demoit](https://github.com/dgageot/demoit) Live coding demos without Context Switching
 
