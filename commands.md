@@ -17,3 +17,4 @@
 
 ## CentOs
  - Install rpm from ulr: `yum install -y <URL>`
+ - Find big files/folder `sudo du -h / | grep '[0-9\.]\+G'`
