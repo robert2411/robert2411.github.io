@@ -27,6 +27,8 @@
  - [Drone](https://drone.io/) Automate Software Testing and Delivery
 ### Presentations
  - [demoit](https://github.com/dgageot/demoit) Live coding demos without Context Switching
+### Testing
+ - [testinfra](https://testinfra.readthedocs.io/en/latest/examples.html) A tool to test if the infrastructure is working correctly
 
 ### Swagger
  - [ReDoc](https://github.com/Rebilly/ReDoc) OpenAPI/Swagger-generated API Reference Documentation 
