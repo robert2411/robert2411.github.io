@@ -18,6 +18,7 @@
  - [ossindex](https://sonatype.github.io/ossindex-maven/maven-plugin/) Audit a project dependencies using Sonatype OSS Index.
  - [TestContainers](https://www.testcontainers.org/) Run services like postgres in docker while running unit tests
  - [Frontend maven plugin](https://github.com/eirslett/frontend-maven-plugin) A Maven plugin that downloads/installs Node and NPM locally, runs NPM install
+ - [flatten-maven-plugin](https://www.mojohaus.org/flatten-maven-plugin/examples/example-multiple-versions.html) flatten the poms and use a different version per maven submodule
 
 ## Tools
  - [code-server](https://github.com/codercom/code-server) Visual studio code inside docker
