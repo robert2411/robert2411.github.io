@@ -18,7 +18,7 @@ sort jira-raw.txt | uniq >> release-notes-${BUILD_VERSION}-jira.txt
 ```
 #!/bin/bash
 
-cd evs-via
+docker-compose up -d
 
 while [ $(docker-compose ps | grep starting | wc -l) -ne 0 ]
 do
