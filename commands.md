@@ -8,7 +8,7 @@
  - `docker run -it --net=container:<container id> ubuntu`
  - `docker run -it --pid=host ubuntu`
  - `docker run -it --cap-drop=all ubuntu`
- - `--read-only --tempfs=/dir/subdir/'
+ - `--read-only --tempfs=/dir/subdir/`
 
 ## Git 
  - `git update-index --chmod=+x script.sh`
