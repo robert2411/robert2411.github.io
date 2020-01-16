@@ -14,6 +14,8 @@
  - [awaitility](https://github.com/awaitility/awaitility) 
  - [Electron-java-app](https://github.com/jreznot/electron-java-app)
  - [jpa.query-methods.query-creation](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation)
+  - [sping data jpa](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation) -> Table 3. Supported keywords inside method names
+
 
 ### Maven
  - [ossindex](https://sonatype.github.io/ossindex-maven/maven-plugin/) Audit a project dependencies using Sonatype OSS Index.
