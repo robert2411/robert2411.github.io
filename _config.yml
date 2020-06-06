@@ -3,3 +3,11 @@ author: ing. Robert Stevens
 email: robert@stevens.biz
 description: Basic personal site
 theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-168720305-1          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
