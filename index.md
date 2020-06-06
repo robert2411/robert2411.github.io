@@ -5,3 +5,5 @@ Home | [Links](./links) | [Configurations](./configurations) | [Scripts](./scrip
 
 ## CV
 [CV](./cv.pdf)
+
+{% include advertisements.html %}
