@@ -8,14 +8,17 @@ http://en.doit.am/CH341SER.zip
 https://www.arduino.cc/en/Main/Software
 
 ## Board manager url:
-http://arduino.esp8266.com/stable/package_esp8266com_index.json
-(http://arduino.esp8266.com/Arduino/versions/2.3.0/doc/installing.html)
+ - http://arduino.esp8266.com/stable/package_esp8266com_index.json
+ - (http://arduino.esp8266.com/Arduino/versions/2.3.0/doc/installing.html)
 
 ## Board to select:
 NodeMCU 1.0(ESP-12E Module)
 
 ## Over the airUpdate
 Open example: basicOta
+
+https://lastminuteengineers.com/esp8266-ntp-server-date-time-tutorial/
+
 
 ## other info
 https://randomnerdtutorials.com/esp8266-ota-updates-with-arduino-ide-over-the-air/
