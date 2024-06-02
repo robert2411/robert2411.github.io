@@ -1,4 +1,5 @@
 = Notes
+:source-highlighter: highlight.js
 
 include::reactor.adoc[leveloffset=1]
 
