@@ -1,0 +1,21 @@
+= Reactor with spring
+
+== Linking a spring event to a Flux
+
+Create a sink
+
+[source,java]
+----
+// The exact config depends on the needs
+Sinks.Many<Event> sink = Sinks.many().replay().limit(1);
+
+@EventListener(Event.class)
+public void onTick(Event event) {
+    sink.tryEmitNext(event);
+}
+
+public Flux<Event> someMethod() {
+    return sink.asFlux();
+}
+----
+

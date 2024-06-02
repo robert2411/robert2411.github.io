@@ -1,1 +1,5 @@
-= Readme
+= Notes
+
+include::reactor.adoc[leveloffset=1]
+
+include::htmx.adoc[leveloffset=1]
