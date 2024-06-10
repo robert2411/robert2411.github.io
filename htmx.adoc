@@ -89,3 +89,37 @@ public Flux<ServerSentEvent<String>> progress() {
   --- This will be replaced by the response of /time ---
 </div>
 ----
+
+== Render the template on demand 
+
+[source,java]
+----
+import org.thymeleaf.TemplateEngine;
+
+@Autowired
+private final TemplateEngine templateEngine;
+
+private String render(String template, Map<String, Object> parameter) {
+    IContext context = new Context(Locale.getDefault(), parameter);
+    return templateEngine.process(template, context).replace("\r", "").replace("\n", "");
+}
+----
+
+== Clear content on sse connection error
+
+[source,html]
+----
+
+<script>
+    function clearcontent(elementID) {
+        document.getElementById(elementID).innerHTML = "<H1>Connection error with the backend!</H1>";
+    }
+</script>
+
+<script>
+    document.body.addEventListener('htmx:sseError', function (evt) {
+        clearcontent('monitoring-sse')
+    });
+</script>
+
+----
