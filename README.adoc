@@ -1,7 +1,0 @@
-= Notes
-:toc: left
-:source-highlighter: highlight.js
-
-include::reactor.adoc[leveloffset=1]
-
-include::htmx.adoc[leveloffset=1]
